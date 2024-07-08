@@ -1,0 +1,41 @@
+.start-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.start-page h1 {
+  margin-bottom: 20px;
+}
+
+.start-page h2 {
+  margin-bottom: 20px;
+}
+
+.start-page form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.start-page .mb-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.start-page .form-label {
+  margin-bottom: 5px;
+}
+
+.start-page .btn-primary {
+  align-self: center;
+  width: 100%;
+  padding: 40px;
+}
